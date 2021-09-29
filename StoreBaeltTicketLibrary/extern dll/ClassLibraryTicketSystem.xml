@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibraryTicketSystem</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibraryTicketSystem.BaseTicket">
+            <summary>
+            Base class for other tickets
+            </summary>
+        </member>
+        <member name="F:ClassLibraryTicketSystem.BaseTicket.broBuzzDiscount">
+            <summary>
+            constant defining brobuzz discount. now - 5%
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.BaseTicket.LicensePlate">
+            <summary>
+            Throws exception if you try to set licenseplate longer than 7 cahracters
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.BaseTicket.Brobuzz">
+            <summary>
+            boolean saying whether brobuzz discount has been used
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.BaseTicket.Date">
+            <summary>
+            Date - when the ticket is valid
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.BaseTicket.Price">
+            <summary>
+            method returns the price of the crossing
+            </summary>
+            <returns>double</returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.BaseTicket.VeichleType">
+            <summary>
+            returns the type of crossing veichle
+            </summary>
+            <returns>string </returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.BaseTicket.Discount(System.Double)">
+            <summary>
+            private method to calculate discount
+            uses constant int which specifies discount in percents ( 5 means 5% discount)
+            has an overload where you can choose another percentage as discount
+            </summary>
+            <param name="price"> takes original price</param>
+            <returns> price with discount</returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.BaseTicket.Discount(System.Double,System.Int32)">
+            <summary>
+            overload of the method allows to calculate the price after specific discount
+            </summary>
+            <param name="price"></param>
+            <param name="discount"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.Car">
+            <summary>
+            Subclass of Vehicle.
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.Price">
+            <summary>
+            Returns a double of the price of the car, which is set to 240.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.VehicleType">
+            <summary>
+            Returns a string of the type of the vehicle, which is "Car".
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.MC">
+            <summary>
+            Subclass of Vehicle.
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.Price">
+            <summary>
+            Returns a double of the price of the MC, which is set to 125.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.VehicleType">
+            <summary>
+            Returns a string of the type of the vehicle, which is "MC".
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.Vehicle">
+            <summary>
+            Abstract superclass of vehicles.
+            </summary>
+        </member>
+        <member name="F:ClassLibraryTicketSystem.Vehicle._brobizz">
+            <summary>
+            Bool if brobizz is applied.
+            </summary>
+        </member>
+        <member name="F:ClassLibraryTicketSystem.Vehicle._brobizzDiscount">
+            <summary>
+            Double of discount which should be 5%
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Vehicle.Licenseplate">
+            <summary>
+            Returns a string of the vehicle's License plate.
+            Can't be longer than 7.
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Vehicle.Brobizz">
+            <summary>
+            Property bool if brobizz applies.
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Vehicle.Date">
+            <summary>
+            Returns a DateTime of the vehicle's date of manufacture.
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Vehicle.Price">
+            <summary>
+            Abstract method for the price of the vehicle.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Vehicle.VehicleType">
+            <summary>
+            Abstract method for the type of the vehicle.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
