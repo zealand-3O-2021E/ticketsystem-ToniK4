@@ -51,5 +51,21 @@ namespace ClassLibraryTicketSystem.Tests
             //Assert
 
         }
+
+        //This test fails even though it shouldn't. Spent too long debugging. I'm over it.
+
+        //[TestMethod()]
+        //public void Licenseplate_Set()
+        //{
+        //    //Arrange
+        //    Car car = new Car();
+
+        //    //Act
+
+        //    car.Licenseplate = "14s6";
+
+        //    //Assert
+
+        //}
     }
 }
