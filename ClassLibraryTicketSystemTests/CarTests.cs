@@ -38,7 +38,7 @@ namespace ClassLibraryTicketSystem.Tests
         }
         [TestMethod()]
         [ExpectedException(typeof(ArgumentException), "A license plate longer than 7 characters was inappropriately allowed.")]
-        public void Vehicle()
+        public void Licenseplate_ThrowsArgument_IfLongerThan7()
         {
             //Arrange
             Car car = new Car();
