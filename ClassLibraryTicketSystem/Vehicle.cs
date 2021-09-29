@@ -35,7 +35,9 @@ namespace ClassLibraryTicketSystem
                 _licenseplate = value;
             }
         }
-
+        /// <summary>
+        /// Property bool if brobizz applies.
+        /// </summary>
         public bool Brobizz
         {
             get
