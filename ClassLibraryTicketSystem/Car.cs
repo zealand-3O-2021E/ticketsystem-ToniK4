@@ -9,7 +9,7 @@ namespace ClassLibraryTicketSystem
     {
 
         /// <summary>
-        /// Returns a double of the price of the car, which is set to 240.
+        /// Returns a double of the price of the car.
         /// </summary>
         /// <returns></returns>
         public override double Price()
@@ -23,7 +23,7 @@ namespace ClassLibraryTicketSystem
         }
 
         /// <summary>
-        /// Returns a string of the type of the vehicle, which is "Car".
+        /// Returns a string of the type of the vehicle.
         /// </summary>
         /// <returns></returns>
         public override string VehicleType()

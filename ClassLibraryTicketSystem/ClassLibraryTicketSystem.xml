@@ -65,13 +65,13 @@
         </member>
         <member name="M:ClassLibraryTicketSystem.Car.Price">
             <summary>
-            Returns a double of the price of the car, which is set to 240.
+            Returns a double of the price of the car.
             </summary>
             <returns></returns>
         </member>
         <member name="M:ClassLibraryTicketSystem.Car.VehicleType">
             <summary>
-            Returns a string of the type of the vehicle, which is "Car".
+            Returns a string of the type of the vehicle.
             </summary>
             <returns></returns>
         </member>
@@ -82,13 +82,13 @@
         </member>
         <member name="M:ClassLibraryTicketSystem.MC.Price">
             <summary>
-            Returns a double of the price of the MC, which is set to 125.
+            Returns a double of the price of the MC.
             </summary>
             <returns></returns>
         </member>
         <member name="M:ClassLibraryTicketSystem.MC.VehicleType">
             <summary>
-            Returns a string of the type of the vehicle, which is "MC".
+            Returns a string of the type of the vehicle.
             </summary>
             <returns></returns>
         </member>

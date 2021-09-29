@@ -12,7 +12,7 @@ namespace ClassLibraryTicketSystem
     public class MC : Vehicle
     {
         /// <summary>
-        /// Returns a double of the price of the MC, which is set to 125.
+        /// Returns a double of the price of the MC.
         /// </summary>
         /// <returns></returns>
         public override double Price()
@@ -26,7 +26,7 @@ namespace ClassLibraryTicketSystem
         }
 
         /// <summary>
-        /// Returns a string of the type of the vehicle, which is "MC".
+        /// Returns a string of the type of the vehicle.
         /// </summary>
         /// <returns></returns>
         public override string VehicleType()
