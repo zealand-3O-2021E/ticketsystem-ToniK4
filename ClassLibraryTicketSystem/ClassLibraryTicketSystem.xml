@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibraryTicketSystem</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibraryTicketSystem.Car">
+            <summary>
+            Subclass of Vehicle.
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.Price">
+            <summary>
+            Returns a double of the price of the car, which is set to 240.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.VehicleType">
+            <summary>
+            Returns a string of the type of the vehicle, which is "Car".
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.MC">
+            <summary>
+            Subclass of Vehicle.
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.Price">
+            <summary>
+            Returns a double of the price of the MC, which is set to 125.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.MC.VehicleType">
+            <summary>
+            Returns a string of the type of the vehicle, which is "MC".
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.Vehicle">
+            <summary>
+            Abstract superclass of vehicles.
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Vehicle.Licenseplate">
+            <summary>
+            Returns a string of the vehicle's License plate.
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Vehicle.Date">
+            <summary>
+            Returns a DateTime of the vehicle's date of manufacture.
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Vehicle.Price">
+            <summary>
+            Abstract method for the price of the vehicle.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Vehicle.VehicleType">
+            <summary>
+            Abstract method for the type of the vehicle.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
