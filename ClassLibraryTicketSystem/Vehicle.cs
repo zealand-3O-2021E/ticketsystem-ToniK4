@@ -10,6 +10,15 @@ namespace ClassLibraryTicketSystem
         private string _licenseplate;
 
         /// <summary>
+        /// Bool if brobizz is applied.
+        /// </summary>
+        private bool _brobizz = false;
+        /// <summary>
+        /// Double of discount which should be 5%
+        /// </summary>
+        protected const double _brobizzDiscount = 0.05;
+        
+        /// <summary>
         /// Returns a string of the vehicle's License plate.
         /// Can't be longer than 7.
         /// </summary>
@@ -25,8 +34,20 @@ namespace ClassLibraryTicketSystem
 
                 _licenseplate = value;
             }
-
         }
+
+        public bool Brobizz
+        {
+            get
+            {
+                return _brobizz;
+            }
+            init
+            {
+                _brobizz = value;
+            }
+        }
+
         /// <summary>
         /// Returns a DateTime of the vehicle's date of manufacture.
         /// </summary>

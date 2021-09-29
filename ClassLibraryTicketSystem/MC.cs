@@ -17,7 +17,12 @@ namespace ClassLibraryTicketSystem
         /// <returns></returns>
         public override double Price()
         {
-            return 125;
+            double FinalPrice = 125;
+            if (Brobizz)
+            {
+                FinalPrice = FinalPrice * (1 - _brobizzDiscount);
+            }
+            return FinalPrice;
         }
 
         /// <summary>

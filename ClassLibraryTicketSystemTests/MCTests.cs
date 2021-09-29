@@ -23,6 +23,18 @@ namespace ClassLibraryTicketSystem.Tests
             //Assert
             Assert.AreEqual(125, actualValue);
         }
+        [TestMethod()]
+        public void PriceTest_WithDiscountIs118_75()
+        {
+            //Arrange
+            MC MC = new MC() { Brobizz = true };
+
+            //Act
+            double actualValue = MC.Price();
+
+            //Assert
+            Assert.AreEqual(118.75, actualValue, 0.1);
+        }
 
         [TestMethod()]
         public void VehicleTypeTest_IsMC()

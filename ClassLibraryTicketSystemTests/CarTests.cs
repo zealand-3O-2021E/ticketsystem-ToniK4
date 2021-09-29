@@ -23,6 +23,18 @@ namespace ClassLibraryTicketSystem.Tests
             //Assert
             Assert.AreEqual(240, actualValue);
         }
+        [TestMethod()]
+        public void PriceTest_WithDiscountIs228()
+        {
+            //Arrange
+            Car car = new Car() {Brobizz = true};
+            
+            //Act
+            double actualValue = car.Price();
+
+            //Assert
+            Assert.AreEqual(228, actualValue, 0.1);
+        }
 
         [TestMethod()]
         public void VehicleTypeTest_IsCar()
@@ -52,7 +64,7 @@ namespace ClassLibraryTicketSystem.Tests
         }
 
         [TestMethod()]
-        public void Licenseplate_Set()
+        public void Licenseplate_Set_FailsIfLongerThan7()
         {
             //Arrange
             Car car = new Car();

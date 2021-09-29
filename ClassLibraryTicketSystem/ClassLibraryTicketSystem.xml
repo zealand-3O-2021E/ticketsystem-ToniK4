@@ -43,6 +43,16 @@
             Abstract superclass of vehicles.
             </summary>
         </member>
+        <member name="F:ClassLibraryTicketSystem.Vehicle._brobizz">
+            <summary>
+            Bool if brobizz is applied.
+            </summary>
+        </member>
+        <member name="F:ClassLibraryTicketSystem.Vehicle._brobizzDiscount">
+            <summary>
+            Double of discount which should be 5%
+            </summary>
+        </member>
         <member name="P:ClassLibraryTicketSystem.Vehicle.Licenseplate">
             <summary>
             Returns a string of the vehicle's License plate.
