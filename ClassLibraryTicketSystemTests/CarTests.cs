@@ -16,7 +16,7 @@ namespace ClassLibraryTicketSystem.Tests
         {
             //Arrange
             Car car = new Car();
-
+            
             //Act
             double actualValue = car.Price();
 

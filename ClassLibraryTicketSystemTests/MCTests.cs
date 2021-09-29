@@ -25,13 +25,13 @@ namespace ClassLibraryTicketSystem.Tests
         }
 
         [TestMethod()]
-        public void VehicleTest_IsMC()
+        public void VehicleTypeTest_IsMC()
         {
             //Arrange
             MC MC = new MC();
 
             //Act
-            string actualValue = MC.Vehicle();
+            string actualValue = MC.VehicleType();
 
             //Assert
             Assert.AreEqual("MC", actualValue);
