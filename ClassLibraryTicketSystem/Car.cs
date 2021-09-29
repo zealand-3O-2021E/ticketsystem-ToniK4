@@ -2,16 +2,16 @@
 
 namespace ClassLibraryTicketSystem
 {
-    public class Car
+    /// <summary>
+    /// Subclass of Vehicle.
+    /// </summary>
+    public class Car : Vehicle
     {
-        public string Licenseplate;
-        public DateTime Date;
-
         /// <summary>
         /// Returns a double of the price of the car, which is set to 240.
         /// </summary>
         /// <returns></returns>
-        public double Price()
+        public override double Price()
         {
             return 240;
         }
@@ -20,7 +20,7 @@ namespace ClassLibraryTicketSystem
         /// Returns a string of the type of the vehicle, which is "Car".
         /// </summary>
         /// <returns></returns>
-        public string VehicleType()
+        public override string VehicleType()
         {
             return "Car";
         }
