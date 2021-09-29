@@ -36,5 +36,20 @@ namespace ClassLibraryTicketSystem.Tests
             //Assert
             Assert.AreEqual("Car", actualValue);
         }
+        [TestMethod()]
+        [ExpectedException(typeof(ArgumentException), "A license plate longer than 7 characters was inappropriately allowed.")]
+        public void Vehicle()
+        {
+            //Arrange
+            Car car = new Car();
+
+            //Act
+
+            //Throws exception when string is longer than 7, which is good, but weird stuff happens when it's shorter.
+            car.Licenseplate = "14s6hghhggf";
+
+            //Assert
+
+        }
     }
 }

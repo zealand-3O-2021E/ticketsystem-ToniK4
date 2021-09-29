@@ -46,6 +46,7 @@
         <member name="P:ClassLibraryTicketSystem.Vehicle.Licenseplate">
             <summary>
             Returns a string of the vehicle's License plate.
+            Can't be longer than 7.
             </summary>
         </member>
         <member name="P:ClassLibraryTicketSystem.Vehicle.Date">
