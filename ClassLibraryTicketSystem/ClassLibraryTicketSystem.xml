@@ -59,6 +59,11 @@
             Can't be longer than 7.
             </summary>
         </member>
+        <member name="P:ClassLibraryTicketSystem.Vehicle.Brobizz">
+            <summary>
+            Property bool if brobizz applies.
+            </summary>
+        </member>
         <member name="P:ClassLibraryTicketSystem.Vehicle.Date">
             <summary>
             Returns a DateTime of the vehicle's date of manufacture.
