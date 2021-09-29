@@ -45,27 +45,24 @@ namespace ClassLibraryTicketSystem.Tests
 
             //Act
 
-            //Throws exception when string is longer than 7, which is good, but weird stuff happens when it's shorter.
-            car.Licenseplate = "14s6hghhggf";
+            car.Licenseplate = "1fdfsfdsf333";
 
             //Assert
 
         }
 
-        //This test fails even though it shouldn't. Spent too long debugging. I'm over it.
+        [TestMethod()]
+        public void Licenseplate_Set()
+        {
+            //Arrange
+            Car car = new Car();
 
-        //[TestMethod()]
-        //public void Licenseplate_Set()
-        //{
-        //    //Arrange
-        //    Car car = new Car();
+            //Act
 
-        //    //Act
+            car.Licenseplate = "gfd6";
 
-        //    car.Licenseplate = "14s6";
+            //Assert
 
-        //    //Assert
-
-        //}
+        }
     }
 }
