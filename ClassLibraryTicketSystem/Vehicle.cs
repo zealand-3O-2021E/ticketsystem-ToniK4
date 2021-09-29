@@ -14,10 +14,7 @@ namespace ClassLibraryTicketSystem
         
         public string Licenseplate
         {
-            get
-            {
-                return Licenseplate;
-            }
+            get => Licenseplate;
             set
             {
                 if (value.Length > 7)
